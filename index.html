@@ -1,6 +1,37 @@
 <html>
+    <style>
+        body{
+            background-image: url('background2.jpg');
+        }
+    </style>
     <h1>Thomas' Portfolio</h1>
-    <fontsize="+2">Font test</fontsize>
-    <h2>font test</h2>
-        <img src="./Profile12-1.JPG" />
+        <img src="./Profile12-1.JPG"/>
+        <p>Boston 2020</p>
+        <p><i>PC Steph Tonneson</i></p>
+        <p></p>
+        <h2>Survey That Currently Goes Nowhere</h2>
+        <label for="name">Name (6 to 10 characters):</label>
+        <input type="text" id="name"
+        name="name" required
+        minlength="6" maxlength="10"
+        size="12">
+        <p></p>
+        <label for="height">Height (feet):</label>
+        <input type="number" id="height"
+        name="height" required
+        min="1" max="7"
+        size="4">
+        <label for="height">Height (inches):</label>
+        <input type="number" id="height"
+        name="height" required
+        min="1" max="11"
+        size="4">
+        <p>Age</p>
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" id="b" name="b" value="0" 
+            min="0" max="90"/> +
+            <input type="number" id="a" name="a" value="0" 
+            min="0" max="9" size="4"/> =
+            <output name="result" for="a b">0</output>
+          </form>
 </html>
