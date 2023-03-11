@@ -1,3 +1,7 @@
+body{
+  background-color: aquamarine;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -5,4 +9,33 @@
 .visible {
   opacity: 1;
   transition: opacity 1s ease-out;
+}
+
+.test {
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.nav-item{
+  padding: 20px;
+}
+
+li::marker{
+  /* content: '♜'; */
+  content: '♞';
+  padding: 1px;
+  font-size: 2em;
+
+}
+
+.profile{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 50%;
 }
