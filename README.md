@@ -6,3 +6,5 @@
 ## Real-Time Bus Tracker
 <a href="https://thomasmknight.github.io/RealtimeBusTracking/"> Bus Tracker </a>
 <!-- ## Checkmate -->
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
