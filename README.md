@@ -6,3 +6,6 @@
 ## Real-Time Bus Tracker
 <a href="https://thomasmknight.github.io/RealtimeBusTracking/"> Bus Tracker </a>
 <!-- ## Checkmate -->
+
+## Future Updates
+In the future I would like to update this page to include boilerplate scaffolding, so basic html elements don't need to be copied over from the index into every other page 
